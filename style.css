@@ -119,3 +119,95 @@
     grid-column: auto;
   }
 }
+/* YCS QUOTE FORM POLISHED LAYOUT */
+
+.quote-banner {
+  padding: 100px 0;
+}
+
+.quote-form-container {
+  background: #0d0f11;
+  border: 1px solid rgba(215,163,50,.35);
+  padding: 55px;
+  border-radius: 8px;
+  box-shadow: 0 25px 70px rgba(0,0,0,.45);
+}
+
+.quote-form-header {
+  border-bottom: 1px solid #292b2e;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+}
+
+.quote-form-header h2 {
+  color: #f5f2eb;
+}
+
+.quote-form-header > p:last-child {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote-form-grid {
+  gap: 24px;
+}
+
+.form-group {
+  background: #101215;
+  padding: 18px;
+  border: 1px solid #25272a;
+  border-radius: 5px;
+}
+
+.form-group:hover {
+  border-color: rgba(215,163,50,.35);
+}
+
+.form-group label {
+  color: #d7a332;
+  letter-spacing: .5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: #08090b;
+  border-color: #35373b;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #d7a332;
+}
+
+.quote-submit {
+  margin-top: 40px;
+  padding-top: 35px;
+}
+
+.quote-submit .button {
+  min-width: 250px;
+  padding: 16px 28px;
+  font-size: 15px;
+  letter-spacing: .5px;
+}
+
+@media(max-width:700px) {
+  .quote-form-container {
+    padding: 30px 20px;
+  }
+
+  .quote-form-header {
+    padding-bottom: 25px;
+  }
+
+  .form-group {
+    padding: 15px;
+  }
+
+  .quote-submit .button {
+    width: 100%;
+  }
+}
